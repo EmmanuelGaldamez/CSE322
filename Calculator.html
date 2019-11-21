@@ -5,7 +5,6 @@
     body {background-color: LightGrey;}
     h1 {color: white; background-color: Tomato; text-align: left;}
     h3 {color: red; text-align: center;}
-    div.calc
   </style>
   <title>Simple Calculator</title>
   <body>
@@ -20,5 +19,12 @@
       padding: 500px; margin: 25px; text-align: center;">
         Calculator goes here.
     </div>
+    <script>
+      var a, b, c;
+      a = 2;
+      b = 2;
+      c = a + b;
+      document.getElementByTagName("div").innerHTML = c;
+    </script>
   </body>
 </html>
